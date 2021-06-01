@@ -17,6 +17,6 @@ console.log('praise cage')
 getImage()
 
 async function getImage() {
-  const result = await tiny.get({url:'https://light-28e-staging.begin.app/images'})
+  const result = await tiny.get({url:'https://light-28e-staging.begin.app'})
   console.log(result.body.image)
 }
