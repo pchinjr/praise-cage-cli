@@ -12,7 +12,6 @@ var argv = require('yargs/yargs')(process.argv.slice(2))
   .alias('version', 'v')
   .argv;
 
-console.log(argv);
 console.log('praise cage')
 getImage()
 
